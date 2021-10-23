@@ -1,14 +1,38 @@
-## Case Study: Heartbleed
-Heartbleed was a huge vulnerrabilty as it impacted such a large number of webservers.
-OpenSSL was and still is one of the most popular tools for encrypting website traffic.
+# beaker.fm
+A blog about hacking and some other random things.
+But mostly about code :)
 
-Let's look at some code
+The focus is on minimalistic implementations and design.
+Very pythonic, I know!
+
+Hacking is about finding the easiest way to the end objective
+Often its harder to get there than you think,
+every now and then its easy.
+Just like life!
+
+## Local Setup
+Create a Python virtual environment
 
 ```
-import kali
-kali.pwn(heartbleed_server)
-
-print(kali)
+python3 -m venv venv
 ```
 
-So you can see it is super easy to exploit!	
+Install the dependencies
+
+```
+pip install -r requirements.txt
+```
+
+Build the latest article with 
+
+```
+python3 build.py
+```
+
+Build a specific article with...TODO
+
+Run a local webserver of the generated HTML
+
+```
+python3 -m http.server
+```

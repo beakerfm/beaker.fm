@@ -15,7 +15,7 @@ pre code {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
-  /* padding: 20px; */
+  padding: 20px;
   border-radius: 5px;
 }
 span {
@@ -29,6 +29,7 @@ span {
   }
   pre code {
     background-color: #2e4857;
+    padding: 20px;
   }
   #footer {
     color: #FFF;
