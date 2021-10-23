@@ -23,13 +23,17 @@ Install the dependencies
 pip install -r requirements.txt
 ```
 
-Build the latest article with 
+Select the article to build with 
 
 ```
 python3 build.py
 ```
 
-Build a specific article with...TODO
+Build a specific article with
+
+```
+python3 build.py <article-name>
+```
 
 Run a local webserver of the generated HTML
 
