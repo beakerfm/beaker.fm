@@ -21,7 +21,20 @@ def publish(article):
   print(f"Publishing: {article}")  
   with open("index.html", "w") as f:
     f.write(soup.prettify())
-  
+  os.system("git status")
+  prompt = """
+  WARNING: Any currently staged changes will also be pushed!
+  Would you like to proceed to adding index.html to commit
+  and pushing the commit to the master branch?
+  """
+  print(prompt)
+  git_push = input("Answer [Y/n]: ")
+  if git_push == "Y":
+    os.system("git add index.html")
+    os.system(f"git commit -m 'Publishing {article} to index.html'")
+    os.system("git push origin master")
+  else:
+    print("ABORTING Publication!")
 
 def prompt_publish():
   articles = next(os.walk("./articles"))[1]
