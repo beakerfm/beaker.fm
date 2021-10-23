@@ -31,7 +31,7 @@ def publish(article):
   git_push = input("Answer [Y/n]: ")
   if git_push == "Y":
     os.system("git add index.html")
-    os.system(f"git commit -m 'Publishing {article} to index.html'")
+    os.system(f"git commit -m 'Publish {article} to index.html'")
     os.system("git push origin master")
   else:
     print("ABORTING Publication!")
