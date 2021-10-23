@@ -17,6 +17,7 @@ pre code {
   display: block;
   padding: 20px;
   border-radius: 5px;
+  font-size: 120%;
 }
 span {
   color: blue;
@@ -30,6 +31,7 @@ span {
   pre code {
     background-color: #2e4857;
     padding: 20px;
+    font-size: 120%;
   }
   #footer {
     color: #FFF;
