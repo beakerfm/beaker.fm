@@ -11,6 +11,9 @@ body {
 h1 { 
   /* font-family: Courier; */
 }
+code {
+  font-size: 120%;
+}
 pre code {
   background-color: #eee;
   border: 1px solid #999;
