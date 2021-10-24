@@ -18,6 +18,7 @@ pre code {
   padding: 20px;
   border-radius: 5px;
   font-size: 120%;
+  overflow-x: auto;
 }
 span {
   color: blue;
@@ -32,6 +33,7 @@ span {
     background-color: #2e4857;
     padding: 20px;
     font-size: 120%;
+    overflow-x: auto;
   }
   #footer {
     color: #FFF;
