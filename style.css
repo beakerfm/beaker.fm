@@ -24,6 +24,21 @@ span {
   color: blue;
 }
 
+#header {
+  height: 150px;
+  min-width: 675px;
+}
+
+#sheep_logo {
+  width: 140px;
+}
+
+#header-text {
+  font-size: 100px;
+  width: 482px;
+  float: left;
+}
+
 @media (prefers-color-scheme: dark) {
   body { 
     background-color: #101111; 
@@ -43,5 +58,9 @@ span {
   }
   span {
     color: green;
+  }
+  #sheep_logo {
+    filter: invert(0.93);
+    -webkit-filter: invert(0.93);
   }
 }
