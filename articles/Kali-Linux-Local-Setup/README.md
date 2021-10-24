@@ -108,7 +108,7 @@ exploit testing!
 As always
 
 ```
-We trust you have received the usual lecture from the local 
+We trust you have received the usual lecture from the local
 System Administrator. It usually boils down to these three things:
 
 #1) Respect the privacy of others.
