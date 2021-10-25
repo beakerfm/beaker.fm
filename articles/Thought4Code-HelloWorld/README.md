@@ -82,3 +82,5 @@ Remeber it is never a bad idea to ask for
 ```
 >>>help()
 ```
+
+The only way to learn to code is by reading and writing it!
