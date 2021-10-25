@@ -14,34 +14,16 @@ following text.
 The language this ritual is performed in changes with the times.
 Today we will use Python.
 
-Install a Python interpreter on your machine
-and create a new file called `hello.py`.
+## Running Commands
+Install a Python interpreter directly onto your machine
 
 * [Mac](https://www.python.org/downloads/macos/)
 * [Windows](https://www.python.org/downloads/windows/)
 
-Add the following contents to the file
-```
-print("Hello World")
-```
+Once the Python interpreter is installed open a terminal (Mac) or cmd prompt (Windows).
+Type `python` and hit `Enter`.
+You are now in a Python interpreter!
 
-After you save the file open a terminal (Mac) or cmd prompt (Windows)
-and navigate to the directory where the file is saved.
-You can then run this code with `python hello.py`.
-
-The text "Hello World" should be printed to the screen.
-It takes many transistors to make this work!
-The electrical engineer knows this, the programmer takes it for granted
-nowadays. This is always how society progresses.
-
-But it is nice that it is as simple as that to get started.
-
-## Running Commands
-It is possible to run code directly in the interpreter with
-
-```
-python
-```
 You should then see a prompt similar to
 ```
 Python 3.8.2 (default, Jun  8 2021, 11:59:35)
@@ -55,10 +37,42 @@ It is possible to then run commands at the prompt!
 Try to print some text by running 
 
 ```
->>>print("Some more text")
+>>>print("Hello World")
 ```
 
-Congrats you can write code!
+Congrats you can run code!
 
 Note: You should be using Python3 by now :)
 
+## Writing Code
+Note: the following commands are for terminal on Mac (sorry Windows)
+
+Create a project directory from the terminal with
+
+```
+mkdir python_hello
+```
+
+Enter into the new directory with `cd python_hello`.
+
+Create a new file called `hello.py` by running
+
+```
+touch hello.py
+```
+
+Add the following contents to the file using a text editor of choice
+```
+print("Hello World")
+```
+
+You can then run this code with `python hello.py`.
+
+The text "Hello World" should be printed to the screen.
+It takes many transistors to make this work!
+The electrical engineer knows this, the programmer takes it for granted
+nowadays. This is always how society progresses.
+
+But it is nice that it is as simple as that to get started.
+
+Congrats on writing your first line of code!
