@@ -76,3 +76,9 @@ nowadays. This is always how society progresses.
 But it is nice that it is as simple as that to get started.
 
 Congrats on writing your first line of code!
+
+Remeber it is never a bad idea to ask for 
+
+```
+>>>help()
+```
