@@ -27,3 +27,11 @@ You can take out loans on your 401k and IRA to purchase your first house for ins
 Not that this is the best advice, but it is merely an example of the flexibility of your accounts.
 
 If you are fortunate enough to live or work in the USA, 401k managers are the best fund managers in the world.
+
+## Expenses
+
+## Investment Accounts
+
+## Trading
+
+## Crypto Currency and Speculation
