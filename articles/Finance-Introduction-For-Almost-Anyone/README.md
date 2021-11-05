@@ -35,3 +35,8 @@ If you are fortunate enough to live or work in the USA, 401k managers are the be
 ## Trading
 
 ## Crypto Currency and Speculation
+Speculation can be a healthy addition to any portfolio that has performed the previous financial advice.
+As your wealth grows you may find that you have surplus of cash and are looking for further places to invest it.
+Speculation can be a healthy form of invvestment when done correctly and in the right proportion.
+You should only speculate in things you have a special knowledge of in order to reduce the risk.
+Markets continue to rise when others misprice things only to realize this and try and get in at a later price.
